@@ -24,13 +24,12 @@ class Variable {
         age *= age;
         System.out.println(age);
         // toLowercase toUppercase
-        name = name.toLowerCase();
-        System.out.println(name);
-        name = name.toUpperCase();
-        System.out.println("Ur name is"+name);
-        System.out.println("Your grade is:"+grade);
+        // name = name.toLowerCase();
+        // System.out.println(name);
+        // name = name.toUpperCase();
+        // System.out.println("Ur name is"+name);
+        // System.out.println("Your grade is:"+grade);
         System.out.println(is_student);
-        //
-
+        System.out.println(name.equals("Dara"));
     }
 }
