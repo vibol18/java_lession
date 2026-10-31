@@ -11,7 +11,8 @@ public class Input {
         search = search.toUpperCase();
         System.out.println(search);
         System.out.print("Enter Age:");
-        age = sc.nextInt();
+        age = sc.next();
         System.out.println(age);
+        
     }
 }
